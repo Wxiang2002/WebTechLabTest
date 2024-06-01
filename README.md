@@ -1,4 +1,3 @@
-# assignment2
 
 ## Project setup
 ```
