@@ -19,5 +19,11 @@ npm run build
 npm run lint
 ```
 
+### 
+If having error: 'vue-cli-service' is not recognized as an internal or external command
+```
+npm install -g @vue/cli-service
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
