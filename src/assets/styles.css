@@ -9,8 +9,9 @@
     background-color: #000;
     background-image: url("./bg-img.jpeg");
     background-position: center;
-    background-size: cover;
+    background-size: cover; 
     height: 100vh;
+    overflow-y: auto;
 }
 
 .navbar {
@@ -57,7 +58,7 @@ li {
     font-size: 14px;
 }
 
-ul li a {
+ul li a{
     text-decoration: none;
     color: #fff;
     font-family: Arial;
@@ -65,7 +66,7 @@ ul li a {
     transition: 0.4s ease-in-out;
 }
 
-ul li a:hover {
+ul li a:hover{
     color: #ff7200;
 }
 
@@ -169,4 +170,118 @@ ul li a:hover {
 .cn:hover {
     background-color: #fff;
     transform: scale(0.9) translateX(15px) translateY(15px);
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.about table{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.about tr td{
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 20px 70px;
+    margin: 50px;
+    
+}
+
+.about tr td:first-child {
+    color: white;
+    padding: 1em 1em;
+}
+
+.about tr :nth-child(2){
+    color: white;
+    padding: 20px 20px;
+}
+
+.about tr td:last-child {
+    color: #ff7200;
+    font-weight: 800;
+    font-family: Cambria;
+    font-size: 28px;
+}
+
+.photos{
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.photos p, h1{
+    color: white;
+}
+
+.profile{
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.profile td{
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.profile tr td:first-child{
+    color: white;
+    border: 1px solid white;
+    padding: 1em 1em;
+    width:auto;
+}
+
+.profile tr td:nth-child(2){
+    color: white;
+    padding: auto;
+}
+
+.profile tr td:last-child{
+    color: white;
+}
+
+.profile tr td input{
+    padding: 10px 20px;
+    background-color: rgba(128, 128, 128, 0.2);
+    color: white;
+    border-radius: 10px;
+}
+
+.profile div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 300px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.buttons button{
+    display: flex;
+    padding: 10px 20px;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-weight: 500;
 }
